@@ -1,5 +1,5 @@
 .encabezado {
-    @apply relative h-xl flex justify-between shadow bg-white text-gray-700;
+    @apply  relative h-xl flex justify-between shadow bg-white text-gray-700;
 }
 
 .logoYTitulo {

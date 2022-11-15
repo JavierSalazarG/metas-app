@@ -6,7 +6,7 @@ import { ReactComponent as LogoSVG } from '../../img/logo.svg';
 
 function Encabezamiento() {
     return (
-        <header className="encabezado">
+        <header className="encabezado ">
             <div className="logoYTitulo">
                 <LogoSVG className={estilos.logo}/>
                 <a href="../../App.js">Metas App</a>
