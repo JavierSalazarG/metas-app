@@ -1,0 +1,9 @@
+.encabezado {
+    @apply relative h-xl flex justify-between shadow bg-white text-gray-700;
+}
+
+.logoYTitulo {
+    @apply flex items-center px-5 hover:bg-lime-300;
+}
+
+

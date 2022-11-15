@@ -1,0 +1,3 @@
+.pie{
+    @apply relative h-7 text-sm text-right pr-4 text-white bg-gradient-to-r from-lime-300 to-lime-700;
+}

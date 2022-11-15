@@ -1,0 +1,10 @@
+.vinculo {
+    @apply flex items-center px-4 h-xl hover:bg-lime-100 ;
+}
+.logo {
+    @apply h-6 w-6 mr-3;
+}
+
+.texto{
+    @apply ml-2 text-sm font-semibold text-gray-700;
+}

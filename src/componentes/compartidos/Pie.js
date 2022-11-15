@@ -1,7 +1,8 @@
+import '../../css/pie.css'
 
 function Pie() {
     return (
-        <footer className="text-red-500">
+        <footer className="pie">
             <small>Desarrollado y diseñado por Javier Salazar Gutiérrez ©️2030. Todos los derechos reservados</small>
 
         </footer>
