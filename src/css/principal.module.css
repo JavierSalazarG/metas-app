@@ -11,5 +11,5 @@
     @apply flex flex-col text-gray-700 bg-gray-100 w-60 h-full;
 }
 .main{
-    @apply w-full h-full overflow-scroll
+    @apply w-full h-full overflow-scroll nm-convex-gray-100;
 }

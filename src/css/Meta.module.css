@@ -1,0 +1,17 @@
+.meta{
+    @apply flex p-2 justify-between hover:bg-lime-300;
+}
+
+.icono{
+    @apply nm-inset-lime-50 h-10 w-10 rounded-full flex items-center justify-center;
+    font-size: 28px;
+}
+
+.frecuencia{
+    @apply ml-10 mr-10 items-start text-xl ;
+}
+
+.frecuencia > sub{
+    @apply text-xs text-gray-500 ml-1;
+}
+

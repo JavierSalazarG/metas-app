@@ -1,19 +1,23 @@
-function Meta() {
+import estilos from '../../css/Meta.module.css'
+import '../../App.css'
+
+
+
+function Meta({ icono, eventos, periodo, detalles, completado, meta }) {
+    
     return ( 
-        <div>
-            <div>
-                <div>Icono</div>
-                <p>1<sub>/ Semana</sub></p>
-                <p>Detalles</p>
+        <div className={estilos.meta + " tarjeta"}>
+            <div className="flex items-center">
+                <div className={estilos.icono}>{icono}</div>
+                <p className={estilos.frecuencia}>{eventos}<sub >/ {periodo}</sub></p>
+                <p>{detalles}</p>
             </div>
-            <div>
-                <div>   
-                    <p>4 de 5</p>
-                    <div>
-                        <div></div>
-                    </div>
+            <div className='flex'>
+                <div className='relative m-2 mx-5'>   
+                    <p className='text-center'>{completado} de {meta}</p>
+                   
                 </div>
-                <button>Completado</button>
+                <button className='boton boton--gris'>Completado</button>
             </div>
         </div>
      );
