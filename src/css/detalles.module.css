@@ -1,0 +1,16 @@
+.label{
+    @apply block uppercase text-xs font-bold mb-6;
+}
+
+.input{
+    background: #F3F4F6;
+        box-shadow: inset 0.2em 0.2em calc(0.2em * 2) #ADB4C2, inset calc(0.2em * -1) calc(0.2em * -1) calc(0.2em * 2) #FFFFFF;
+        width: 100%;
+        border-width: 1px;
+    
+    @apply py-2 rounded-xl;
+}
+
+.botones{
+    @apply bg-gradient-to-r from-lime-400 via-lime-200 to-lime-200 px-4 py-3 flex justify-between;
+}

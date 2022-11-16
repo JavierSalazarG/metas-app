@@ -1,5 +1,5 @@
 .tarjeta{
-  @apply rounded-xl m-4 text-gray-700 text-xs mx-4 nm-flat-white ;
+  @apply rounded-xl m-4 text-gray-700 text-xs mx-4 nm-flat-white overflow-hidden ;
 }
 
 .boton{
@@ -7,12 +7,12 @@
 }
 
 .boton--negro{
-  @apply text-white nm-flat-gray-700 hover:bg-gray-200;
+  @apply text-gray-700 bg-lime-200 p-3 hover:bg-lime-700 hover:text-gray-100;
 }
 .boton--rojo{
-    @apply text-red-500 nm-flat-gray-100;
+    @apply text-red-500 nm-flat-lime-100;
 }
 
 .boton--gris{
-    @apply nm-flat-gray-100 hover:bg-gray-200;
+    @apply bg-lime-700 text-gray-100 hover:text-gray-700 p-3 hover:bg-lime-100;
 }
