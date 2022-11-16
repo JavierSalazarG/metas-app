@@ -5,14 +5,16 @@ import Principal from './componentes/compartidos/Principal';
 import Pie from './componentes/compartidos/Pie';
 
 import Lista from './componentes/lista/Lista';
+import Detalles from './componentes/nueva/Detalles';
 
 function App() {
   return (
     <div className="App">
       <Encabezamiento ></Encabezamiento>
       <Principal >
-        <Lista></Lista>
-        </Principal>
+      <Detalles></Detalles>
+        {/* <Lista></Lista> */}
+      </Principal>
       <Pie ></Pie>
     </div>
   );
