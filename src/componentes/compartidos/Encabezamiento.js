@@ -3,17 +3,18 @@ import estilos from '../../css/vinculos.module.css'
 import Vinculo from '../Vinculo' 
 import {ReactComponent as PerfilSVG} from '../../img/perfil.svg';
 import { ReactComponent as LogoSVG } from '../../img/logo.svg';
+import { Link } from 'react-router-dom';
 
 function Encabezamiento() {
     return (
         <header className="encabezado ">
             <div className="logoYTitulo">
                 <LogoSVG className={estilos.logo}/>
-                <a href="../../App.js">Metas App</a>
+                <Link to="/">Metas App</Link>
             </div>
             <nav>
                 <Vinculo
-                    href="/perfil"
+                    to="/perfil"
                     Icon={PerfilSVG}>
                 </Vinculo>
             </nav>

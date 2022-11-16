@@ -8,13 +8,13 @@ function Principal({ children }) {
         <div className={estilos.principal}>
             <aside className={estilos.aside}>
                 <Vinculo  
-                href="/listar" 
+                to="/listar" 
                 Icon={ListaSVG} 
                 texto="Lista de Metas">
                 </Vinculo>
 
                 <Vinculo 
-                href="/crear" 
+                to="/crear" 
                 Icon={CrearSVG} 
                 texto="Crear Meta">
                 </Vinculo>

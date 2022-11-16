@@ -1,22 +1,22 @@
-
+import {Routes, Route} from 'react-router'
 import './App.css';
-import Encabezamiento from './componentes/compartidos/Encabezamiento';
-import Principal from './componentes/compartidos/Principal';
-import Pie from './componentes/compartidos/Pie';
-
+import Layaut from './componentes/Layaut'
 import Lista from './componentes/lista/Lista';
+import Noencontrado from './componentes/NoEncontrado';
 import Detalles from './componentes/nueva/Detalles';
 
 function App() {
   return (
-    <div className="App">
-      <Encabezamiento ></Encabezamiento>
-      <Principal >
-      <Detalles></Detalles>
-        {/* <Lista></Lista> */}
-      </Principal>
-      <Pie ></Pie>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layaut />}>
+        <Route index element={<Lista/>}/>
+        <Route path="/listar" element={<Lista />} />
+        <Route path="/crear" element={<Detalles />} />
+      </Route>
+      <Route path="*" element={<Noencontrado />} />
+      
+    </Routes>
+    
   );
 }
 
